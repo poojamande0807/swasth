@@ -1,0 +1,230 @@
+main #home img {
+  width: 100%;
+  border-radius: 0px 0px 0px 200px;
+}
+
+main .gymImgs {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main .gymImgs img {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+main .profile-intro {
+  background: #ececec;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+main .profile-intro div img {
+  width: 30vw;
+}
+
+main .profile-intro div {
+  padding-inline: 50px;
+}
+
+main .gympngs p {
+  padding-inline: 50px;
+  padding-bottom: 25px;
+}
+
+main .gympngs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+
+main .gympngs img {
+  width: 100px;
+  padding-top: 25px;
+  margin: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) { /* Tablet screens */
+  main .profile-intro {
+    padding-left: 20px;
+  }
+
+  main .profile-intro div {
+    padding-inline: 20px;
+  }
+
+  main .gympngs {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  main .gympngs img {
+    width: 80px; /* Smaller image size */
+  }
+}
+
+@media (max-width: 575px) { /* Mobile screens */
+  .paragraph-adjust {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  main .profile-intro {
+    flex-direction: column; /* Stack items vertically */
+    padding-left: 0; /* Remove left padding */
+  }
+
+  main .profile-intro div img {
+    width: 70vw; /* Larger images for mobile */
+  }
+
+  main .gympngs {
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 20px; /* Reduce top margin */
+  }
+
+  main .gympngs p {
+    padding-inline: 10px; /* Reduced padding */
+  }
+
+  main .gympngs img {
+    width: 60px; /* Smaller image size */
+  }
+
+  main .guidlines {
+    padding: 50px 20px; /* Adjust padding for mobile */
+  }
+
+  main .guidlines p {
+    padding-inline: 10px; /* Reduced padding */
+    color: gray; /* Ensure text is readable */
+  }
+
+  main .goal div {
+    padding-inline: 20px; /* Reduced padding */
+  }
+
+  main.goal img {
+    width: 40px; /* Smaller icons */
+  }
+
+  main .container .row-in img {
+    width: 80px; /* Smaller image size */
+  }
+
+  main .habbits {
+    flex-direction: column; /* Stack items vertically */
+    padding: 15px; /* Reduced padding */
+  }
+
+  main .habbits img {
+    width: 60vw; /* Adjust image size */
+  }
+
+  main .habbits div {
+    padding-inline: 15px; /* Reduced padding */
+  }
+
+  .users {
+    padding: 10px; /* Added padding for users section */
+  }
+}
+
+.guidlines {
+  padding: 90px 90px 50px 90px; /* Original padding */
+  border-radius: 25px;
+}
+
+.guidlines-img img {
+  width: 75%; /* Default width for larger screens */
+  margin: auto; /* Centering the image */
+}
+
+@media (max-width: 992px) { /* Tablet screens */
+  .guidlines {
+    padding: 70px 20px; /* Adjusted padding for tablets */
+  }
+
+  .guidlines-img img {
+    width: 90%; /* Wider images for tablets */
+  }
+}
+
+@media (max-width: 575px) { /* Mobile screens */
+  .guidlines {
+    padding: 50px 15px; /* Reduced padding for mobile */
+  }
+
+  .guidlines h1 {
+    font-size: 1.5rem; /* Smaller font size for headings */
+  }
+
+  .guidlines p {
+    font-size: 1rem; /* Smaller font size for paragraphs */
+    padding-inline: 10px; /* Added padding for text */
+  }
+
+  .guidlines-img {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .guidlines-img img {
+    width: 100%; /* Full-width images on mobile */
+    max-width: 300px; /* Max width for images */
+  }
+}
+
+
+
+/* marque trial 
+ */
+ /* .marquee {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+} */
+/* 
+.marquee div {
+  /* min-width: 220px; /* Ensure each element has enough width */
+  /* height: 300px; Set a fixed height for consistency */
+  /* margin-right: 20px; Add space between each card */
+  /* padding: 20px; */
+  /* animation: marquee-left 10s linear infinite; */
+  /* background-color: #f8f9fa; Background for better visibility */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Optional shadow for better design */
+  /* transition: all 0.3s ease-in-out; */
+/* } */
+
+/* Marquee Animation */
+/* @keyframes marquee-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+/* Hover Effect to Stop Marquee */
+/* .marquee:hover div {
+  animation-play-state: paused; /* Pause the animation on hover */
+/* } */
+
+/* Ensures images fit within the div */
+/* .marquee img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+} */
